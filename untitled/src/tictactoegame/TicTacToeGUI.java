@@ -114,7 +114,7 @@ public class TicTacToeGUI extends JFrame {
 
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new TicTacToeGUI());
+        SwingUtilities.invokeLater(TicTacToeGUI::new);
     }
 
 }
